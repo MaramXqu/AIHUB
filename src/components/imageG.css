@@ -1,0 +1,142 @@
+*{
+
+    color: rgb(246, 248, 250);
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+  
+  }
+  h1{
+    margin-top: 30px;
+    font-size: 2.3rem;
+  }
+  #p1{
+    margin-top: -10.9rem;
+    color: #5f5f5f;
+  }
+  .app1{
+    background-color:#464449;
+    display: flex;
+
+  
+  }
+
+  .main1{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#120320;
+    margin-top: 4rem ;
+  }
+
+  #nav1{
+    border-bottom:solid 0.5px white;
+    display: flex;
+  }
+  button{
+    color: white;
+    border: solid 0.5px white;
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: -7rem;
+  }
+  
+  #nav2{
+  
+    border-top:solid 0.5px white;
+    padding: 10px;
+    margin: 10px;
+  
+  }
+  nav p{
+    color: rgb(250, 250, 250);
+   font-size: 1rem;
+  
+  }
+  
+  nav a, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+  }
+  
+.bottom{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputcont{
+
+    width: 100%;
+    max-width: 650px;
+    position: relative;
+
+}
+.info{
+    color:rgb(152, 154, 155);
+    font-size: 11px;
+    padding: 10px;
+  }
+input{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+}
+
+#submit{
+    cursor: pointer;
+    position: absolute;
+    top:10px;
+    right:30px;
+    color: rgb(252, 251, 251);
+    margin-right: 30px;
+    font-size: 1.7rem;
+    margin-top: -0.5rem;
+}
+#delete{
+    cursor: pointer;
+    position: absolute;
+    top:10px;
+    right:30px;
+    color: black; 
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    background-color: rgb(251, 252, 252);
+    padding: 3px;
+    border-radius: 6px;
+    margin-right: -1.6rem;
+    margin-top: -0.2rem;
+    
+}
+
+.imagesection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imagesection img{
+
+    width: 40%;
+    height: 60%;
+    margin: auto;
+
+
+}
