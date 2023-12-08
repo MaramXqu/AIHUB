@@ -56,7 +56,7 @@ const Chatgpt = () => {
     try{
       const response= await fetch('https://open-ai21.p.rapidapi.com/conversationgpt', options)
       const data = await response.json()
-      res.send(data.result)
+      setMessage(data.result) 
     } 
      catch(error){
       console.error(error)
