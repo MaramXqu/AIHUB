@@ -32,25 +32,38 @@ const Chatgpt = () => {
 
 // GET MESSAGE FROM API TO CONSOLE : DONE
   const getMessages= async () =>{
-    const Options ={
+    const options = {
       method:'POST',
-      body: JSON.stringify({
-      message: JSON.stringify(value)
-
-    }),
-    headers: {
-      "content-Type": "application/json"}
-    }
+      headers: {
+        'content-type': 'application/json',
+      'X-RapidAPI-Key': 'd935b06896msh9653f65915cc8a3p15dc18jsn59eb36443912',
+      'X-RapidAPI-Host': 'open-ai21.p.rapidapi.com'
+  
+      },
+      body : JSON.stringify({
+  
+         messages: [
+              {
+                  role: "user",
+                  content: JSON.stringify(value)
+              }
+          ],
+          web_access: false
+    
+      })
+  
+   }
     try{
-    const response = await fetch('http://localhost:3000/chatapi', Options)
-    const data= await response.json()
-    setMessage(data.result) 
-
-    } catch(error){
-
+      const response= await fetch('https://open-ai21.p.rapidapi.com/conversationgpt', options)
+      const data = await response.json()
+      res.send(data.result)
+    } 
+     catch(error){
       console.error(error)
     }
   }
+  
+  
 
 //console.log(message)
 
