@@ -1,39 +1,38 @@
 *{
 
-    color: rgb(246, 248, 250);
     font-family: 'Times New Roman', Times, serif;
     
     
   
   }
   
-  #app{
-    margin-top: 4rem;
+  #Chatapp{
+    margin-bottom: 4rem;
     background-color: white;
     display: flex;
     height: 80vh;
   
   }
   
-  #side-bar{
+  #Chatside-bar{
   
     color: white;
     background-image: url('./1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    width: 244px;
+    width: 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   
   
   }
-  #side-bar p{
+  #Chatside-bar p{
     cursor: pointer;
   
   }
- #newmessage{
+ #Chatnewmessage{
     color: white;
     border: solid 0.5px white;
     background-color: transparent;
@@ -44,27 +43,27 @@
     margin-top: 3rem;
   }
   
-  nav{
+  #ChatNav{
   
     border-top:solid 0.5px white;
     padding: 10px;
     margin: 10px;
   
   }
-  nav p{
+  #ChatNav p{
     color: rgb(250, 250, 250);
    font-size: 1rem;
   
   }
   
-  nav a, a:visited, a:active {
+  #ChatNav a, a:visited, a:active {
     text-decoration: none;
     color: white;
   }
   
-  #main{
+  #Chatmain{
     height: 90vh;
-    width: 98%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -72,25 +71,25 @@
     background-color:#10051b;
   }
   
-  .info{
+  #Chatinfo{
     color:rgb(152, 154, 155);
     font-size: 11px;
     padding: 10px;
   }
-  .input-container{
+  #Chatinput-container{
     position: relative;
     width: 100%;
     max-width: 650px;
   
   }
-  .bootom-section{
+  #Chatbootom-section{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  input {
+  #ChatInput {
     width: 100%;
     border: none;
     font-size: 20px;
@@ -104,27 +103,29 @@
     rgba(0,0,0,0.05)0 -3px 5px;
   }
   
-  #submit{
+  #Chatsubmit{
     position: absolute;
     margin-top: -40px;
     right: 0;
     cursor: pointer;
     margin-right: 20px;
+  
   }
-  .p1{
+  #Chatp1{
     font-size: 1.7rem;
   
   }
   
-  .history{
+  #Chathistory{
   
     padding: 10px;
     margin: 10px;
     height: 100%;
+    background-color: transparent;
   
   }
   
-  .history li{
+  #Chathistory li{
     list-style-type: none;
     padding: 15px 0;
     cursor: pointer;
@@ -137,7 +138,7 @@
   }
   
   
-  .feed{
+  #Chatfeed{
     overflow: scroll;
     overflow-x: hidden;
     width: 97%;
@@ -147,7 +148,7 @@
   
   }
   
-  .feed li{
+  #Chatfeed li{
   
     display: flex;
     background-color:#221231;
@@ -157,11 +158,11 @@
     border-radius: 1rem;
   }
   
-  .feed p{
+  #Chatfeed p{
     font-size: 16px;
     text-align: left;
   }
-  .role{
+  #Chatrole{
     padding-right: 3rem;
     text-transform: capitalize;
   

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+
+#mainsection_main {
+    
+    margin-top: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../img/background4.jpg');
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 5rem;
+}
+
+
+#mainsection_main h2 {
+    color: #e8e9ee;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 20px;
+}
+
+#mainsection_main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #e0e3e6;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+#mainsection_main p {
+    color: rgba(158, 158, 158, 0.636);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.mainsection-btn {
+    color: #2004258a;
+    background-color: #eff0f3;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.mainsection-btn:hover {
+    background-color: #8c69938a;
+    color: white;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #7d2424;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #744d98;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #faf5f5;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(202, 189, 189, 0.648);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #542583;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #542583;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-weight: 700;
+    margin: 10px;
+}

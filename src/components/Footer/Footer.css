@@ -1,0 +1,31 @@
+
+
+.footer {
+    background-color: #10051b;
+    color: #fff;
+    padding: 0.08em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.footer-title span {
+    color: #eceef1;
+}
+
+.footer .social-icons {
+    font-size: 2em;
+    padding: 0 40px 0 0;
+    margin-top: 10px;
+    color: #eceef1;
+
+
+
+}

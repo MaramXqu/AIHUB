@@ -1,0 +1,77 @@
+.projects {
+    background-color: #fff;
+    margin: 7rem;
+    
+    
+}
+
+.projects .content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.projects .title{
+    font-size:2.9rem ;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family:sans-serif
+
+}
+.project-card {
+    background-color: #f1eff3;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 22em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    transition: 0.7s ease;
+    margin-top: 30px;
+}
+
+.project-card:hover {
+   transform: scale(1.1);
+   border: #50316f;
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+ }
+
+.project-image img{
+    width: 100%
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-info span{
+
+    color: #462566;
+}
+
+.project-category {
+    font-size: 1em;
+    color: #50316f;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    color:#765498;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #462566;
+}
+
+.more-details:hover {
+    color: rgb(38, 9, 44);
+}

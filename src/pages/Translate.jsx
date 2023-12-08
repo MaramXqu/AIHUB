@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import countries from "../data";
 import './translate.css';
+import Header from "../components/Header/Header";
+
 const Translate = () => {
   useEffect(() => {
     const fromText = document.querySelector(".from-text");
@@ -96,7 +98,9 @@ const Translate = () => {
   }, []);
   return (
     <>
-    <div className="body">
+    <Header/>
+    <div className="Transbody">
+      <h1> AI Translator </h1>
       <div className="container">
         <div className="wrapper">
           <div className="text-input">

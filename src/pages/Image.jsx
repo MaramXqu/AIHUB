@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './imageG.css';
+import Header from '../components/Header/Header';
 
 const ImageGenerator = () => {
   const APIKEY = 'c6bf46f933msh7f39f169e7ff387p11ac2fjsnfa059fa3ae96';
@@ -46,6 +47,8 @@ const ImageGenerator = () => {
   };
 
   return (
+    <>
+    <Header/>
     <div className="app1">
       
       <section className="main1">
@@ -77,6 +80,7 @@ const ImageGenerator = () => {
         </section>
       </section>
     </div>
+    </>
   );
 };
 

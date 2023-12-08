@@ -1,8 +1,11 @@
+import React from "react";
 import { useState , useEffect } from "react"
 import './chatgpt.css';
+import Header from "../components/Header/Header";
 
 
-const Chatgpt=() => {
+
+const Chatgpt = () => {
 
   const[value , setValue]= useState(null) 
   const [ message , setMessage]= useState(null)  
@@ -97,43 +100,47 @@ console.log(uniqueTitle)
 
 
   return (
-    <div id="app">
-      <section id="side-bar">
-      <button id='newmessage' onClick={createNewChat}> + New Chat </button>
-      <ul className="history">
+    <>
+    <Header/>
+    <div id="Chatapp">
+      <section id="Chatside-bar">
+      <button id='Chatnewmessage' onClick={createNewChat}> + New Chat </button>
+      <ul id="Chathistory">
 
 
       {uniqueTitle?.map((uniqueTitle , index) => <li key={index} onClick={() => handleClick(uniqueTitle)}>{uniqueTitle}</li> )}
 
       </ul>
-      <nav>
+      <nav id="ChatNav">
   <a href="#" >
     <p>HOME</p>
   </a>
 </nav>
       </section>
 
-      <section id="main">
+      <section id="Chatmain">
        {!currentTitle && <h1>ChatGPT</h1>}
-        <ul className="feed">
+        <ul id="Chatfeed">
         {currentChat?.map((ChatMessage , index) => <li key={index}> 
-        <p className="role"> {ChatMessage.role}</p>
+        <p id="Chatrole"> {ChatMessage.role}</p>
         <p> {ChatMessage.content} </p>
        
         </li>)}
         </ul>
-        <div className="bootom-section">
-          <div className="input-container"> 
-          <input value={value || ''} onChange={(e) => setValue(e.target.value)}/> 
-          <div id="submit" onClick={getMessages}> <p className="p1">➢ </p> </div>
+        <div id="Chatbootom-section">
+          <div id="Chatinput-container"> 
+          <input id="ChatInput" value={value || ''} onChange={(e) => setValue(e.target.value)}/> 
+          <div id="Chatsubmit" onClick={getMessages}> <p id="Chatp1">➢ </p> </div>
   
            </div>
-          <p className="info">GPT-3.5 models can understand and generate natural language or code. The most capable and effective model </p>
+          <p id="Chatinfo">GPT-3.5 models can understand and generate natural language or code. The most capable and effective model </p>
         </div>
       </section>
 
     </div>
+    </>
   );
-}
+};
 
 export default Chatgpt;
+
