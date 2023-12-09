@@ -1,10 +1,13 @@
-
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 #contectsection {
     position: relative;
     z-index: 3;
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: space-between;
+
 
   }
   
@@ -14,12 +17,19 @@
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: -2.4rem;
 
   }
+  .section-header h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+  }
+
   
   .section-header {
     margin-bottom: 50px;
     text-align: center;
+    margin-top: -2rem;
 
   }
   
@@ -28,7 +38,7 @@
     font-weight: bold;
     font-size: 2.9em;
     margin-bottom: 20px;
-    font-family:sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
   
 
@@ -96,9 +106,9 @@ margin-bottom: 10px;
   }
   
   .contact-form h2 {
-    font-family:sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.3em;
     margin-bottom: 10px;
     color: #461973;
   }

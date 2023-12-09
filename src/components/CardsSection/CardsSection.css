@@ -1,9 +1,8 @@
 #services{
-    margin-top: 7rem ;
-    margin-bottom: 7rem;
+    margin: 4rem 0;
     padding: 1rem;
     background-color: #edecee;
-    height: 90vh;
+    height: 100vh;
 }
 .accordion{
     max-width: 900px;
@@ -14,25 +13,28 @@
     border-radius: 8px;
     box-shadow:  0 0 4px rgba(0,0,0,0.2);
     margin-left: 200px;
+    
 }
 .accordion .accordion-content{
     margin: 10px 0;
     border-radius: 4px;
-    background: #F0F0FF;
-    border: 1px solid #CCCCFF;
+    background-color: #f2e2f8;
+    
+    border: 1px solid #ceaed6;
     overflow: hidden;
+
 }
 .accordion-content:nth-child(2){
-    background-color: #F0F0FF;
-    border-color: #CCCCFF;
+    background-color: #f2e2f8;
+    border-color: #ceaed6;
 }
 .accordion-content:nth-child(3){
-    background-color: #F0F0FF;
-    border-color: #CCCCFF;
+    background-color: #f2e2f8;
+    border-color: #ceaed6;
 }
 .accordion-content:nth-child(4){
-    background-color: #F0F0FF;
-    border-color: #CCCCFF;
+    background-color: #f2e2f8;
+    border-color: #ceaed6;
 }
 .accordion-content.open{
     padding-bottom: 60px;
@@ -50,13 +52,14 @@
     min-height: 50px;
 }
 .accordion-content header .title{
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 500;
-    margin-top: 18px;
+    margin-top: 20px;
     color: #50316f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .accordion-content header i{
-    font-size: 15px;
+    font-size: 17px;
     color: #50316f;
 }
 .accordion-content .description{
@@ -66,4 +69,9 @@
     font-weight: 400;
     padding: 0 15px;
     transition: all 0.2s linear;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    margin-top: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

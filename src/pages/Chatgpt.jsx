@@ -114,7 +114,7 @@ console.log(uniqueTitle)
 
   return (
     <>
-    <Header/>
+<Header/>
     <div id="Chatapp">
       <section id="Chatside-bar">
       <button id='Chatnewmessage' onClick={createNewChat}> + New Chat </button>
@@ -124,11 +124,7 @@ console.log(uniqueTitle)
       {uniqueTitle?.map((uniqueTitle , index) => <li key={index} onClick={() => handleClick(uniqueTitle)}>{uniqueTitle}</li> )}
 
       </ul>
-      <nav id="ChatNav">
-  <a href="#" >
-    <p>HOME</p>
-  </a>
-</nav>
+      
       </section>
 
       <section id="Chatmain">
@@ -136,7 +132,7 @@ console.log(uniqueTitle)
         <ul id="Chatfeed">
         {currentChat?.map((ChatMessage , index) => <li key={index}> 
         <p id="Chatrole"> {ChatMessage.role}</p>
-        <p> {ChatMessage.content} </p>
+        <p id="chatcontent"> {ChatMessage.content} </p>
        
         </li>)}
         </ul>

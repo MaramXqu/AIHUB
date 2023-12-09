@@ -14,8 +14,10 @@
 .projects .title{
     font-size:2.9rem ;
     font-weight: bold;
-    letter-spacing: 3px;
-    font-family:sans-serif
+    font-family:sans-serif;
+    color: #462566;
+    text-transform: capitalize;
+    font-weight: 900;
 
 }
 .project-card {
@@ -56,6 +58,8 @@
 .project-category {
     font-size: 1em;
     color: #50316f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
 }
 
 .project-title {
@@ -70,6 +74,9 @@
 .more-details {
     text-decoration: none;
     color: #462566;
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+    font-size: large;
 }
 
 .more-details:hover {

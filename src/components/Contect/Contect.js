@@ -10,22 +10,13 @@ const Contect = () => {
         <section id='contectsection'>
         <div className="section-header">
           <div className="container">
-            <h2 className="title">CONTACT</h2>
+            <h2 className="title">CONTACT US </h2>
           </div>
         </div>
 
         <div className="container">
           <div className="row">
             <div className="contact-info">
-              <div className="contact-info-item">
-              <div className="contact-info-icon">
-                 <BsHouseDoorFill  className= " icone1"  color='rgb(255, 255, 255)'/>
-                </div>
-                <div className="contact-info-content">
-                  <h4>Address</h4>
-                  <p>4671 Sugar Camp Road..</p>
-                </div>
-              </div>
 
               <div className="contact-info-item">
                 <div className="contact-info-icon">
@@ -33,7 +24,7 @@ const Contect = () => {
                 </div>
                 <div className="contact-info-content">
                   <h4>Phone</h4>
-                  <p>571-457-2321</p>
+                  <p>0534...</p>
                 </div>
               </div>
 
@@ -43,7 +34,7 @@ const Contect = () => {
                 </div>
                 <div className="contact-info-content">
                   <h4>Email</h4>
-                  <p>ntamerrwael@mfano.ga</p>
+                  <p>AIHUB@gmail.com</p>
                 </div>
               </div>
             </div>

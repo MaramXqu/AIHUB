@@ -10,7 +10,7 @@ import robotimage4 from '../../img/4.jpg';
 const ProjectsSection = () => {
   return (
     <section className="projects" id="projects">
-      <h2 className="title">CHOOSE YOUR TOOL</h2>
+      <h2 className="title">features & services</h2>
       <div className="content">
         <div className="project-card">
           <div className="project-image">
@@ -18,9 +18,9 @@ const ProjectsSection = () => {
 
           </div>
           <div className="project-info">
-            <p className="project-category">ChatGPT is an artificial intelligence chatbot</p>
+            <p className="project-category">ChatGPTs is an artificial intelligence language model created by OpenAI. It can understand and generate natural language responses with a high degree of accuracy. </p>
             <strong className="project-title">
-              <span>ChatGPT</span>
+    
               <a href="#" className="more-details">Try Now</a>
             </strong>
           </div>
@@ -32,21 +32,9 @@ const ProjectsSection = () => {
 
           </div>
           <div className="project-info">
-            <p className="project-category">Dynamically translate between languages.</p>
+            <p className="project-category">Dynamically translate between languages that Uses contextual clues, semantic understanding, and a vast amount of data to train its models, to deliver translations that are more accurate and </p>
             <strong className="project-title">
-              <span>TRANSLATE</span>
-              <a href="#" className="more-details">Try Now</a>
-            </strong>
-          </div>
-        </div>
-        <div className="project-card">
-          <div className="project-image">
-          <img src={robotimage3}></img>
-          </div>
-          <div className="project-info">
-            <p className="project-category">Generate images from text using AI</p>
-            <strong className="project-title">
-              <span>TEXT TO IMAGE</span>
+        
               <a href="#" className="more-details">Try Now</a>
             </strong>
           </div>
@@ -56,9 +44,20 @@ const ProjectsSection = () => {
           <img src={robotimage4}></img>
           </div>
           <div className="project-info">
+            <p className="project-category"> An advanced AI-powered tool from ChatGPT that effortlessly Generate images from text </p>
+            <strong className="project-title">
+      
+              <a href="#" className="more-details">Try Now</a>
+            </strong>
+          </div>
+        </div>
+        <div className="project-card">
+          <div className="project-image">
+          <img src={robotimage3}></img>
+          </div>
+          <div className="project-info">
             <p className="project-category">Summarize any text using AI</p>
             <strong className="project-title">
-              <span>SUMMARY</span>
               <a href="#" className="more-details">Try Now</a>
             </strong>
           </div>

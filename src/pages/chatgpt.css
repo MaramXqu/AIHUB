@@ -134,16 +134,18 @@
     border-radius: 1rem;
     text-transform: capitalize;
     margin: 15px 0;
+    width: 150px;
     
   }
   
   
   #Chatfeed{
     overflow: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
     width: 97%;
     padding: 0;
     margin-left: 1rem;
+    text-align: left;
   
   
   }
@@ -152,10 +154,11 @@
   
     display: flex;
     background-color:#221231;
-    width: 93%;
+    width: 95%;
     padding: 20px;
     margin: 20px 0;
     border-radius: 1rem;
+
   }
   
   #Chatfeed p{
@@ -166,4 +169,9 @@
     padding-right: 3rem;
     text-transform: capitalize;
   
+  }
+
+  #chatcontent{
+    
+
   }

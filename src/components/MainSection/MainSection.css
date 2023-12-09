@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    font-family:sans-serif;
 }
 
 
@@ -25,14 +24,17 @@
     font-size: 2em;
     font-weight: 500;
     padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #mainsection_main h2 span {
     display: inline-block;
     margin-top: 10px;
     color: #e0e3e6;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 13rem;
 }
 
 #mainsection_main p {
@@ -41,10 +43,13 @@
     font-weight: 700;
     letter-spacing: 1px;
     padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 27rem;
+    
 }
 
-.mainsection-btn {
-    color: #2004258a;
+#mainsection-btn {
+    color: #16021a8a;
     background-color: #eff0f3;
     text-decoration: none;
     font-size: 1.1em;
@@ -55,9 +60,10 @@
     border-radius: 15px;
     margin: 20px;
     transition: 0.7s ease;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.mainsection-btn:hover {
+#mainsection-btn:hover {
     background-color: #8c69938a;
     color: white;
     transform: scale(1.1);

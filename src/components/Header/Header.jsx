@@ -12,6 +12,7 @@ const Header = () => {
     visitedLink: {
        color: '#10051b',
        textDecoration: 'none',
+      
     },
    };
   return (
@@ -22,9 +23,9 @@ const Header = () => {
       </Link>
 
       <li>
-        <a href="#projects">Tools ▾</a>
+        <a href="#projects" style={styles.link} >Tools ▾</a>
         <ul className="dropdown">
-        <li> <Link  style={styles.link} to="/chatgpt" className="doplink" >chatGpt </Link></li>
+        <li> <Link  style={styles.link} to="/chatgpt" className="droplink" >chatGpt </Link></li>
           <li>< Link  style={styles.link} to="/image" className="droplink">text to image </Link></li>
           <li>< Link  style={styles.link} to="/translat" className="droplink">translate</Link></li>
           <li>< Link  style={styles.link} to="/summery" className="droplink">summary </Link></li>
