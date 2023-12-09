@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import countries from "../data";
 import './translate.css';
 import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const Translate = () => {
   useEffect(() => {
@@ -55,7 +56,7 @@ const Translate = () => {
 	    method: 'POST',
 	    headers: {
 		'content-type': 'application/x-www-form-urlencoded',
-		'X-RapidAPI-Key': '264da69cb9mshe1eef0bff3a70c7p109b4ejsn1034773ac62c',
+		'X-RapidAPI-Key': 'd4bfe77f94msh28c47c88bcdfd10p16e51bjsn49c777b4779b',
 		'X-RapidAPI-Host': 'aibit-translator.p.rapidapi.com'
 	},
 	body: new URLSearchParams({
@@ -100,7 +101,7 @@ const Translate = () => {
     <>
     <Header/>
     <div className="Transbody">
-      <h1> AI Translator </h1>
+      <h1 id="transTitle"> AI Translator </h1>
       <div className="container">
         <div className="wrapper">
           <div className="text-input">
@@ -140,6 +141,7 @@ const Translate = () => {
         <button>Translate Text</button>
       </div>
       </div>
+      <Footer/>
     </>
   );
 };

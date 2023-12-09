@@ -23,31 +23,34 @@
   .section-header h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
+
   }
 
   
   .section-header {
     margin-bottom: 50px;
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -4rem;
 
   }
   
   .section-header h2 {
-    color: #744d98;
+    color: #230d38;
     font-weight: bold;
     font-size: 2.9em;
     margin-bottom: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 2rem;
   }
   
 
   
   .row  {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: -3rem;
   }
   
   .contact-info {
@@ -62,7 +65,7 @@
   .contact-info-icon {
     height: 70px;
     width: 70px;
-    background-color: #59409F;
+    background-color: #230d38;
     text-align: center;
     border-radius: 50%;
   }
@@ -83,14 +86,14 @@ margin-bottom: 10px;
  
   
   .contact-info-content h4 {
-    color: #461973;
+    color: #230d38;
     font-size: 1.4em;
     margin-bottom: 1px;
     margin-top: 10px;
   }
   
   .contact-info-content p {
-    color: #744d98;
+    color: #230d38;
     font-size: 1em;
     margin-bottom: 1px;
     
@@ -148,7 +151,7 @@ margin-bottom: 10px;
   .contact-form .input-box input[type="submit"]
   {
     width: 100%;
-    background: #59409F;
+    background: #230d38;
     color: #FFF;
     border: none;
     cursor: pointer;

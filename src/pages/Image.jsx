@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './imageG.css';
 import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 
 const ImageGenerator = () => {
   const APIKEY = 'c6bf46f933msh7f39f169e7ff387p11ac2fjsnfa059fa3ae96';
@@ -13,7 +14,7 @@ const ImageGenerator = () => {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
-        'X-RapidAPI-Key': APIKEY,
+        'X-RapidAPI-Key': 'd935b06896msh9653f65915cc8a3p15dc18jsn59eb36443912',
         'X-RapidAPI-Host': 'open-ai21.p.rapidapi.com',
       },
       body: JSON.stringify({ text: inputValue }),
@@ -53,7 +54,7 @@ const ImageGenerator = () => {
       
       <section className="main1">
         <h1 id="chatTitle"> Image Generator AI tool </h1>
-        <p id='p1'> write what you want type of image you want to generate </p>
+        
         <section className="imagesection">
           {resultImage && (
             <img src={resultImage} alt="Generated Image" />
@@ -80,6 +81,7 @@ const ImageGenerator = () => {
         </section>
       </section>
     </div>
+    <Footer/>
     </>
   );
 };

@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <>
     <ul className="navbar-header">
-      <Link style={styles.link}  to="/" className="logo">
+      <Link style={styles.link}  to="/" id="logo">
         AI HUB
       </Link>
 
@@ -26,12 +26,12 @@ const Header = () => {
         <a href="#projects" style={styles.link} >Tools ▾</a>
         <ul className="dropdown">
         <li> <Link  style={styles.link} to="/chatgpt" className="droplink" >chatGpt </Link></li>
-          <li>< Link  style={styles.link} to="/image" className="droplink">text to image </Link></li>
-          <li>< Link  style={styles.link} to="/translat" className="droplink">translate</Link></li>
+          <li>< Link  style={styles.link} to="/image" className="droplink">Image Generator </Link></li>
+          <li>< Link  style={styles.link} to="/translat" className="droplink">AI Translator</Link></li>
           <li>< Link  style={styles.link} to="/summery" className="droplink">summary </Link></li>
         </ul>
       </li>
-      <li><a href="#contact">contact Us</a></li>
+      <li><a href="#contectsection">contact Us</a></li>
       <li><a href="#services">About Us</a></li>
     </ul>
     </>

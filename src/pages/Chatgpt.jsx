@@ -2,6 +2,7 @@ import React from "react";
 import { useState , useEffect } from "react"
 import './chatgpt.css';
 import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 
 
@@ -36,7 +37,7 @@ const Chatgpt = () => {
       method:'POST',
       headers: {
         'content-type': 'application/json',
-      'X-RapidAPI-Key': 'd935b06896msh9653f65915cc8a3p15dc18jsn59eb36443912',
+      'X-RapidAPI-Key': 'd4bfe77f94msh28c47c88bcdfd10p16e51bjsn49c777b4779b',
       'X-RapidAPI-Host': 'open-ai21.p.rapidapi.com'
   
       },
@@ -128,11 +129,11 @@ console.log(uniqueTitle)
       </section>
 
       <section id="Chatmain">
-       {!currentTitle && <h1>ChatGPT</h1>}
+       {!currentTitle && <h1 id="chattitle">ChatGPT</h1>}
         <ul id="Chatfeed">
         {currentChat?.map((ChatMessage , index) => <li key={index}> 
-        <p id="Chatrole"> {ChatMessage.role}</p>
-        <p id="chatcontent"> {ChatMessage.content} </p>
+        <p id="Chatrole"> {ChatMessage.role} : {ChatMessage.content} </p>
+        
        
         </li>)}
         </ul>
@@ -147,6 +148,7 @@ console.log(uniqueTitle)
       </section>
 
     </div>
+    <Footer/>
     </>
   );
 };

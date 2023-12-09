@@ -9,6 +9,7 @@
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    margin: 0;
 
 }
 .projects .title{
@@ -27,7 +28,7 @@
     width: 22em;
     overflow: hidden;
     border-radius: 10px;
-    margin-right: 60px;
+    margin-right: 10px;
     margin-left: 60px;
     transition: 0.7s ease;
     margin-top: 30px;
@@ -58,7 +59,7 @@
 .project-category {
     font-size: 1em;
     color: #50316f;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 500;
 }
 
@@ -75,8 +76,9 @@
     text-decoration: none;
     color: #462566;
     margin-left: 7.5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: large;
+    font-family: 'Roboto Slab', serif;
 }
 
 .more-details:hover {

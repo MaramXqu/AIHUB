@@ -1,20 +1,20 @@
 *{
-margin: 0;
-padding: 0;
-}
-
-.logo{
+    margin: 0;
+    padding: 0;
+    }
+    
+#logo{
     text-decoration: none;
     color: rgb(49, 23, 74);
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     padding: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 20px;
-    margin-top: 30px;
-    margin-left: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 10px;
     margin-right: 600px;
+    margin-top: 30px;
+    
 
 
 }
@@ -25,8 +25,9 @@ padding: 0;
     font-size: 1.1em;
     font-weight: 550;
     padding-left: 0px;
-    width: 100%;
+    width: 99.80%;
     text-transform: uppercase;
+   
  
 
     
@@ -35,6 +36,7 @@ padding: 0;
 ul li{
     display: inline-block;
     position: relative;
+    margin-right: 1rem;
    
 
 
@@ -46,7 +48,7 @@ ul li a{
     text-decoration: none;
     text-align: center;
     font-size: 18px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Slab', serif;
 
 
 
@@ -59,24 +61,33 @@ ul li ul.dropdown li{
 
 }
 ul li ul.dropdown {
-    width: 200px;
+    width: 240px;
     background: #dee0e576;
     position: absolute;
     z-index: 999;
     display: none;
     width: 120px;
     padding: 20px 15px;
-    font-size: 0.3rem;
+    font-size: 0.1rem;
     
 }
-ul li a:hover{
+ul li .dropdown a:hover{
     background: #dee0e576;
-    border-radius: 20px;
-   
+    width: 70%;
+    border-radius: 4px;
     
 
 
+}
 
+ul li a:hover{
+    background: #dee0e576;
+    width: 78%;
+
+
+}
+ul li a:visited{
+    color: #10051b;
 }
 ul li:hover ul.dropdown {
   display: block;  
@@ -86,5 +97,8 @@ ul li:hover ul.dropdown {
 .droplink{
     color: #10051b;
     margin-left: -0.5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 30px;
 }

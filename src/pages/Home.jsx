@@ -8,6 +8,7 @@ import Footer from '../components/Footer/Footer';
 import Accordion from "../components/CardsSection/CardsSection";
 
 
+
 const Home = () => {
   return (
     <>

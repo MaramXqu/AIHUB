@@ -37,26 +37,25 @@
     margin-right: 13rem;
 }
 
-#mainsection_main p {
-    color: rgba(158, 158, 158, 0.636);
-    font-size: 1.2rem;
-    font-weight: 700;
+#mainsection_main h6 {
+    color: rgba(246, 249, 250, 0.636);
+    font-size: 1.4rem;
     letter-spacing: 1px;
     padding: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     margin-right: 27rem;
-    
+       
 }
 
-#mainsection-btn {
-    color: #16021a8a;
-    background-color: #eff0f3;
+#mainsection-btn  {
+    color: #1f1111;
+    background:#fff;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
     display: inline-block;
     padding: 0.9375em 2.1875em;
-    letter-spacing: 1px;
+    border: 2px solid black;
     border-radius: 15px;
     margin: 20px;
     transition: 0.7s ease;
