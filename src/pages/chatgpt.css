@@ -100,8 +100,8 @@
     width: 100%;
     border: none;
     font-size: 20px;
-   background-color:#221231;
-   color: white;
+   background-color:#f9f9fa;
+   color: rgb(15, 15, 15);
     padding: 12px 15px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.05)0 54px 55px,
@@ -117,7 +117,7 @@
     right: 0;
     cursor: pointer;
     margin-right: 20px;
-    color: white;
+    color: rgb(10, 10, 10);
   
   }
   #Chatp1{
