@@ -109,7 +109,7 @@ input{
     color: rgb(14, 13, 13);
     margin-right: 30px;
     font-size: 1.7rem;
-    margin-top: -1.4rem;
+    margin-top: -1rem;
 }
 #delete{
     cursor: pointer;
