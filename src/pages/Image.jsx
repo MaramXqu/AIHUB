@@ -14,7 +14,7 @@ const ImageGenerator = () => {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
-        'X-RapidAPI-Key': 'd935b06896msh9653f65915cc8a3p15dc18jsn59eb36443912',
+        'X-RapidAPI-Key': '294981d94bmshd99d696a49bf564p149a58jsna86ea1831056',
         'X-RapidAPI-Host': 'open-ai21.p.rapidapi.com',
       },
       body: JSON.stringify({ text: inputValue }),
